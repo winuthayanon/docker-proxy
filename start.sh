@@ -59,6 +59,8 @@ fi
 
 # 7. Start proxy
 
+docker network create webproxy
+
 # Check if you have multiple network
 if [ -z ${SERVICE_NETWORK+X} ]; then
     docker-compose up -d
