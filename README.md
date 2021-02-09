@@ -14,3 +14,6 @@ docker-compose down
 
 # Start
 docker-compose up -d
+
+# check docker process by this command.
+docker ps
