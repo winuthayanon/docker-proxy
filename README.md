@@ -6,11 +6,11 @@ git clone https://github.com/winuthayanon/docker-proxy
 
 cd docker-proxy
 
-# Run by this command.
+# Setup and run by this command.
 ./start.sh
-
-# Start
-docker-compose up -d
 
 # Stop
 docker-compose down
+
+# Start
+docker-compose up -d
